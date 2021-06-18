@@ -1,0 +1,400 @@
+.navbar{
+    color: rgba(0, 0, 0, 0.65) !important;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+ .nav-item a{
+    color: white !important;
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Jost';
+}
+.home-bg{
+    background-image: url(images/Rectangle\ 61.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container {
+    position:relative;
+    top: -104px;
+}
+
+#img-2 {
+    position: absolute;
+    left: 0px;
+    width:100% ;
+}
+#home-sec .sec-1{
+    position: absolute;
+    top: 25%;
+}
+#home-sec .sec-2{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+}
+#home-sec .sec-1 span{
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    color: #000000;
+}
+#home-sec .sec-1 .read-more{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+#home-sec .sec-2 .img-2{
+    height: 194px;
+    position: absolute;
+    top: 93%;
+    right: 143px;
+}
+#about-sec{
+    margin-top: -104px;
+}
+#about-sec .img-2{
+    position: absolute;
+    top: 72%;
+    width: 300px;
+    left: 30%;
+}
+#about-sec .text1{
+    font-size:20px ;
+    font-family: 'Jost';
+    color:rgba(0, 0, 0, 1) ;
+    font-weight:400 ;
+
+}
+#about-sec .text2{
+    font-size:40px ;
+    font-family:'Playfair Display' ;
+    color:#000000 ;
+    font-weight:normal ; 
+}
+#about-sec .text3{
+    font-size:24px ;
+    font-family: 'Jost';
+    color: rgba(114, 114, 114, 1);
+    font-weight:normal;  
+}
+#customizable-sec .text-1{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#customizable-sec .card{
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: transparent;
+    border-radius: 0px;
+}
+#customizable-sec .text-2{
+    font-family: 'Jost';
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#customizable-sec .text-3{
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#customizable-sec img{
+    height: 84px;
+    width: 84px;
+}
+#medicine-sec .text-1{
+    font-family: 'Jost';
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: normal;
+
+}
+#medicine-sec .text-2{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: normal;
+
+}
+#medicine-sec .card{
+    border: 0px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08) !important;
+}
+#medicine-sec .img-1{
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 59px;
+}
+#medicine-sec .card-title{
+    font-family: 'Jost';
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+}
+
+
+#medicine-sec .card-body .active{
+    font-family: 'Jost';
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+}
+#medicine-sec .card-text{
+    font-family: 'Jost';
+    font-size: 18px;
+}
+#medicine-sec .read-more {
+    font-size: 12px;
+    font-family: 'Jost';
+    color: black;
+}
+.why-choose-bg{
+    background-image: url(images/Rectangle\ 73.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#why-choose .text-1{
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#why-choose .img-1{
+    width: 300px;
+    margin-top: -43px;
+    margin-left: 10px;
+}
+#why-choose .text-2{
+    font-size: 45px;
+    font-family: 'Jost';
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#why-choose .text-3{
+    font-size: 25px;
+    font-family: 'Jost';
+    color: #FFFFFF;
+    font-weight: normal;
+}
+#why-choose .downward-arrow{
+    position: absolute;
+    right: 20px;
+    margin-top: 295px;
+}
+#client-says .text-1{
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+
+
+
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+#client-says .card {
+    position: relative;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px !important;
+   
+}
+
+#client-says .card .card-body {
+    padding: 1rem 1rem
+}
+
+#client-says.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+#client-says p {
+    font-size: 25px;
+    font-family: 'Jost';
+    font-weight: 400;
+    text-align: center;
+}
+
+#client-says h4 {
+    line-height: .2 !important
+}
+
+#client-says .items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+#client-says .slick-slide {
+    margin: 10px
+}
+
+.media iframe,
+.media-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(120, 120, 120, .1);
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#client-says .media-content:before {
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 90%;
+    left: 5%;
+    bottom: 0;
+    background: inherit;
+    background-position-y: 100%;
+    filter: blur(10px)
+}
+
+#client-says.circle .media-content:before {
+    width: 40%;
+    left: 30%
+}
+
+#client-says .profile-image {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px
+}
+
+#client-says .card-title {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Jost';
+    color: rgba(136, 136, 136, 1);
+    text-align: center;
+}
+#client-says span{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Jost';
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+#client-says .client-name{
+    font-size: 22px;
+    font-family: 'Jost';
+    color: rgba(0, 0, 0, 1);
+}
+#client-says .slider-top{
+    margin-top: -90px;
+}
+.get-updated-bg{
+    background: rgba(11, 166, 181, 0.2);
+}
+#get-updated .text-1{
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    color: rgba(0, 0, 0, 1);
+}
+#get-updated .envelop{
+    left: 51px;
+    position: absolute;
+    font-size: 26px;
+}
+#get-updated input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 11px;
+    width: 79%;
+    background: transparent;
+
+}
+#get-updated .subscribe{
+    font-size: 25px;
+    font-family: 'Jost';
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 200px;
+}
+#get-updated img
+{
+    width: 301px;
+    position: absolute;
+    left: -252px;
+    top: -41px;
+}
+#footer .text-1{
+    font-size: 44px;
+    font-family: 'Playfair Display';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer .text-2{
+    font-size: 25px;
+    font-family: 'jost';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer .text-3{
+    font-size: 20px;
+    font-family: 'jost';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer .text-4{
+    font-size: 16px;
+    font-family: 'jost';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer .text-5{
+    font-size: 24px;
+    font-family: 'jost';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer  a{
+    font-size: 16px;
+    font-family: 'jost';
+    color: rgba(255, 255, 255, 1); 
+}
+#footer ul{
+    list-style: none;
+    
+}
