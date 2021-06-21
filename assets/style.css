@@ -20,6 +20,10 @@
     position:relative;
     top: -104px;
 }
+#container-1 {
+    position:relative;
+    top: -104px;
+}
 
 #img-2 {
     position: absolute;
@@ -137,12 +141,24 @@
 #medicine-sec .card-title{
     font-family: 'Jost';
     font-size: 25px;
-    color: rgba(0, 0, 0, 1);
+   
+    font-weight: 500;
+}
+ .card-title:hover{
+    font-family: 'Jost';
+    font-size: 25px;
+    color: white;
     font-weight: 500;
 }
 
-
-#medicine-sec .card-body .active{
+.card-body.active{
+    font-family: 'Jost';
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+}
+.card-body:hover {
     font-family: 'Jost';
     font-size: 25px;
     color: white;
@@ -156,7 +172,7 @@
 #medicine-sec .read-more {
     font-size: 12px;
     font-family: 'Jost';
-    color: black;
+   
 }
 .why-choose-bg{
     background-image: url(images/Rectangle\ 73.png);
@@ -398,3 +414,122 @@
     list-style: none;
     
 }
+.social-media{
+    background: white;
+    border: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+.social-media i{
+    font-size: 23px;
+}
+.social-media img{
+    height: 20px;
+}
+/*********************************media Queries**************************************/
+/* For 640 Resolution */  
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{
+    #container {
+    position:relative;
+    top: 0px;
+}  
+#home-sec .sec-1 {
+    position: absolute;
+    top: 1px;
+}
+#home-sec .sec-2 {
+    position: relative;
+    top: 0px; 
+    left: 0px; 
+}
+#about-sec {
+    margin-top: 0px;
+}
+#about-sec .img-1 {
+    height: 388px;
+}
+#medicine-sec .img-1 {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 175px;
+}
+#get-updated .envelop {
+    left: 67px;
+    position: absolute;
+    font-size: 26px;
+}
+#get-updated .subscribe {
+    font-size: 25px;
+    font-family: 'Jost';
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 30px;
+    top: 48px;
+ }
+ #get-updated input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 11px;
+    width: 108%;
+    background: transparent;
+}
+#home-sec .sec-1 span {
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    color: #000000;
+}
+}
+/* For 1024 Resolution */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ 
+    #container {
+        position:relative;
+        top: 0px;
+    } 
+    #home-sec .sec-1 {
+        position: absolute;
+        top: 98px;
+    }
+    #home-sec .sec-2 {
+         position: relative;
+         top: 0px; 
+         left: 0px; 
+    }
+    #about-sec {
+        margin-top: 0px;
+    }
+    #about-sec .img-1{
+        height: 565px;
+    }
+    #medicine-sec .img-1 {
+        width: 300px;
+        position: absolute;
+        right: 0px;
+        bottom: 175px;
+    }
+    #get-updated .envelop {
+        left: 139px;
+        position: absolute;
+        font-size: 26px;
+    }
+    #get-updated .subscribe {
+        font-size: 25px;
+        font-family: 'Jost';
+        color: rgba(0, 0, 0, 1);
+        position: absolute;
+        right: 144px;
+    }
+    #container-1 {
+        position: relative;
+        top: -102px;
+    }
+} 
