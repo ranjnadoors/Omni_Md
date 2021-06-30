@@ -1,3 +1,6 @@
+body{
+    font-family: 'proxima-nova', sans-serif;
+}
 .navbar{
     color: rgba(0, 0, 0, 0.65) !important;
     width: 100%;
@@ -5,26 +8,33 @@
     z-index: 99;
     
 }
+.nav-position{
+    position: fixed;
+    z-index: 99;
+  }
  .nav-item a{
-    color: white !important;
+    color: rgba(0, 0, 0, 1) !important;
     font-size:20px;
     font-weight: 400;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
 }
 .home-bg{
     background-image: url(images/Rectangle\ 61.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#container {
-    position:relative;
-    top: -104px;
-}
+
 #container-1 {
     position:relative;
     top: -104px;
+    width: 100%;
+    background: linear-gradient(108.45deg, rgba(83, 206, 218, 0.41) 18.74%, rgba(213, 232, 231, 0.37) 92.49%);
 }
-
+#img-1{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
 #img-2 {
     position: absolute;
     left: 0px;
@@ -33,28 +43,31 @@
 #home-sec .sec-1{
     position: absolute;
     top: 25%;
+   
 }
 #home-sec .sec-2{
     position: absolute;
     top: 26%;
     left: 50%;
 }
-#home-sec .sec-1 span{
-    font-family: 'Playfair Display';
+#home-sec .sec-1 h2{
+    font-family: 'proxima-nova', sans-serif;
     font-size: 64px;
     color: #000000;
+    line-height: 107px;
 }
 #home-sec .sec-1 .read-more{
     font-size: 20px;
     color: #000000;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-weight: 400;
 }
-#home-sec .sec-2 .img-2{
+#home-sec .sec-1 .img-2{
     height: 194px;
     position: absolute;
-    top: 93%;
-    right: 143px;
+    top: 74%;
+    right: 89px;
+
 }
 #about-sec{
     margin-top: -104px;
@@ -67,25 +80,25 @@
 }
 #about-sec .text1{
     font-size:20px ;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color:rgba(0, 0, 0, 1) ;
     font-weight:400 ;
 
 }
 #about-sec .text2{
     font-size:40px ;
-    font-family:'Playfair Display' ;
+    font-family: 'proxima-nova', sans-serif;
     color:#000000 ;
     font-weight:normal ; 
 }
 #about-sec .text3{
     font-size:24px ;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(114, 114, 114, 1);
     font-weight:normal;  
 }
 #customizable-sec .text-1{
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 40px;
     font-weight: normal;
     text-align: center;
@@ -97,14 +110,14 @@
     border-radius: 0px;
 }
 #customizable-sec .text-2{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     color: #ffffff;
 }
 #customizable-sec .text-3{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
@@ -115,14 +128,14 @@
     width: 84px;
 }
 #medicine-sec .text-1{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
     font-weight: normal;
 
 }
 #medicine-sec .text-2{
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 40px;
     color: rgba(0, 0, 0, 1);
     font-weight: normal;
@@ -135,43 +148,43 @@
 #medicine-sec .img-1{
     width: 300px;
     position: absolute;
-    right: 0px;
-    bottom: 59px;
+    right: -180px;
+    bottom: 85px;
 }
 #medicine-sec .card-title{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
    
     font-weight: 500;
 }
  .card-title:hover{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
     color: white;
     font-weight: 500;
 }
 
 .card-body.active{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
     color: white;
     font-weight: 500;
     background-color: black;
 }
 .card-body:hover {
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
     color: white;
     font-weight: 500;
     background-color: black;
 }
 #medicine-sec .card-text{
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-size: 18px;
 }
 #medicine-sec .read-more {
     font-size: 12px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
    
 }
 .why-choose-bg{
@@ -181,7 +194,7 @@
 }
 #why-choose .text-1{
     font-size: 40px;
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -192,13 +205,13 @@
 }
 #why-choose .text-2{
     font-size: 45px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: #FFFFFF;
     font-weight: bold;
 }
 #why-choose .text-3{
     font-size: 25px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: #FFFFFF;
     font-weight: normal;
 }
@@ -209,7 +222,7 @@
 }
 #client-says .text-1{
     font-size: 40px;
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
 }
@@ -257,7 +270,7 @@
 
 #client-says p {
     font-size: 25px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     font-weight: 400;
     text-align: center;
 }
@@ -325,20 +338,20 @@
 #client-says .card-title {
     font-size: 22px;
     font-weight: 400;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(136, 136, 136, 1);
     text-align: center;
 }
 #client-says span{
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
     text-align: center;
 }
 #client-says .client-name{
     font-size: 22px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
 }
 #client-says .slider-top{
@@ -349,7 +362,7 @@
 }
 #get-updated .text-1{
     font-size: 35px;
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
 }
 #get-updated .envelop{
@@ -368,7 +381,7 @@
 }
 #get-updated .subscribe{
     font-size: 25px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     right: 200px;
@@ -380,34 +393,43 @@
     left: -252px;
     top: -41px;
 }
+#footer .read-more{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 197px;
+    justify-content: center;
+}
 #footer .text-1{
     font-size: 44px;
-    font-family: 'Playfair Display';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer .text-2{
     font-size: 25px;
-    font-family: 'jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer .text-3{
     font-size: 20px;
-    font-family: 'jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer .text-4{
     font-size: 16px;
-    font-family: 'jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer .text-5{
     font-size: 24px;
-    font-family: 'jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer  a{
     font-size: 16px;
-    font-family: 'jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(255, 255, 255, 1); 
 }
 #footer ul{
@@ -434,10 +456,16 @@
 and (min-device-width : 360px)   
 and (max-device-width : 640px)  
 {
-    #container {
-    position:relative;
-    top: 0px;
-}  
+    #container-1 {
+        position: relative;
+        top: 0px;
+      
+    }
+    .nav-bg{
+        position: absolute !important;
+        z-index: 99;
+    }
+  
 #home-sec .sec-1 {
     position: absolute;
     top: 1px;
@@ -466,7 +494,7 @@ and (max-device-width : 640px)
 }
 #get-updated .subscribe {
     font-size: 25px;
-    font-family: 'Jost';
+    font-family: 'proxima-nova', sans-serif;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     right: 30px;
@@ -480,10 +508,11 @@ and (max-device-width : 640px)
     width: 108%;
     background: transparent;
 }
-#home-sec .sec-1 span {
-    font-family: 'Playfair Display';
+#home-sec .sec-1 h2 {
+    font-family: 'proxima-nova', sans-serif;
     font-size: 25px;
     color: #000000;
+    line-height: 30px;
 }
 }
 /* For 1024 Resolution */  
@@ -491,19 +520,18 @@ and (max-device-width : 640px)
 and (min-device-width : 768px)   
 and (max-device-width : 1024px)  
 { 
-    #container {
-        position:relative;
-        top: 0px;
-    } 
+    
+    #home-sec .sec-1 h2 {
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 25px;
+        color: #000000;
+        line-height: 30px;
+    }
     #home-sec .sec-1 {
         position: absolute;
-        top: 98px;
+        top: 76px;
     }
-    #home-sec .sec-2 {
-         position: relative;
-         top: 0px; 
-         left: 0px; 
-    }
+   
     #about-sec {
         margin-top: 0px;
     }
@@ -523,13 +551,19 @@ and (max-device-width : 1024px)
     }
     #get-updated .subscribe {
         font-size: 25px;
-        font-family: 'Jost';
+        font-family: 'proxima-nova', sans-serif;
         color: rgba(0, 0, 0, 1);
         position: absolute;
         right: 144px;
     }
     #container-1 {
         position: relative;
-        top: -102px;
+        top: 0px;
+      
     }
+    .nav-bg{
+        position: absolute !important;
+        z-index: 99;
+    }
+    
 } 
