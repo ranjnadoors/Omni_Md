@@ -1,5 +1,6 @@
 body{
     font-family: 'proxima-nova', sans-serif;
+    overflow-x: hidden;
 }
 .navbar{
     color: rgba(0, 0, 0, 0.65) !important;
@@ -23,7 +24,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.search-icon{
+    font-size: 23px;
+     color: black;
+}
 #container-1 {
     position:relative;
     top: -104px;
@@ -456,31 +460,35 @@ body{
 and (min-device-width : 360px)   
 and (max-device-width : 640px)  
 {
+    .nav-item a{
+        color: #ffffff !important;
+        font-size:20px;
+        font-weight: 400;
+        font-family: 'proxima-nova', sans-serif;
+    }
     #container-1 {
         position: relative;
         top: 0px;
-      
+        height: 267px;
     }
     .nav-bg{
-        position: absolute !important;
+       
         z-index: 99;
     }
-  
+    .search-icon{
+        font-size: 23px;
+         color: white;
+         margin-left: 32px;
+    }
 #home-sec .sec-1 {
     position: absolute;
-    top: 1px;
+    top: 83px;
 }
-#home-sec .sec-2 {
-    position: relative;
-    top: 0px; 
-    left: 0px; 
-}
+
 #about-sec {
     margin-top: 0px;
 }
-#about-sec .img-1 {
-    height: 388px;
-}
+
 #medicine-sec .img-1 {
     width: 300px;
     position: absolute;
@@ -510,33 +518,108 @@ and (max-device-width : 640px)
 }
 #home-sec .sec-1 h2 {
     font-family: 'proxima-nova', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #000000;
     line-height: 30px;
 }
+#img-1 {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    height: 267px;
+}
+#about-sec .img-2 {
+    position: fixed;
+    top: 72%;
+    width: 300px;
+    left: 18%;
+    z-index: 999;
+}
+#get-updated .text-1 {
+    font-size: 25px;
+   }
+#footer .text-2 {
+    font-size: 22px;
+    }
+#footer .text-1 {
+    font-size: 29px;
+    }
+#client-says .text-1 {
+    font-size: 24px;
+    }
+#client-says p {
+    font-size: 20px;
+    }
+#customizable-sec .text-1 {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+   }
+#about-sec .text3 {
+    font-size: 18px;
+    }
+#about-sec .text2 {
+    font-size: 22px;
+    }
+    .read-me-img-1,.read-me-img-2{
+        width: 120px;
+            }
+            #home-sec .sec-1 .read-more {
+                font-size: 12px;
+                color: #000000;
+                font-family: 'proxima-nova', sans-serif;
+                font-weight: 400;
+            }
 }
 /* For 1024 Resolution */  
 @media only screen   
 and (min-device-width : 768px)   
 and (max-device-width : 1024px)  
 { 
-    
+    #home-sec .sec-1 .read-more {
+        font-size: 12px;
+        color: #000000;
+        font-family: 'proxima-nova', sans-serif;
+        font-weight: 400;
+    }
+    .read-me-img-1,.read-me-img-2{
+      width: 120px;
+    }
+    .search-icon{
+        font-size: 23px;
+         color: white;
+         margin-left: 32px;
+    }
+    .nav-item a{
+        color: #fff !important;
+        font-size:20px;
+        font-weight: 400;
+        font-family: 'proxima-nova', sans-serif;
+    }
     #home-sec .sec-1 h2 {
         font-family: 'proxima-nova', sans-serif;
-        font-size: 25px;
+        font-size: 46px;
         color: #000000;
         line-height: 30px;
     }
     #home-sec .sec-1 {
         position: absolute;
-        top: 76px;
+        top: 180px;
     }
    
     #about-sec {
         margin-top: 0px;
     }
-    #about-sec .img-1{
-        height: 565px;
+    #about-sec .text2 {
+        font-size: 22px;
+        font-family: 'proxima-nova', sans-serif;
+        color: #000000;
+        font-weight: normal;
+    }
+    #about-sec .text3 {
+        font-size: 20px;
+        font-family: 'proxima-nova', sans-serif;
+        color: rgba(114, 114, 114, 1);
+        font-weight: normal;
     }
     #medicine-sec .img-1 {
         width: 300px;
@@ -565,5 +648,11 @@ and (max-device-width : 1024px)
         position: absolute !important;
         z-index: 99;
     }
-    
+    #about-sec .img-2 {
+        position: fixed;
+        top: 72%;
+        width: 300px;
+        left: 18%;
+        z-index: 999;
+    }
 } 

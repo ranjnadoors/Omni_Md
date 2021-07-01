@@ -3,7 +3,7 @@ $(document).ready(function () {
       var scroll = $(window).scrollTop();
       if ($(window).width() > 768) {
           if (scroll > 300) {
-              $(".nav-position").css("background", "transparent" + "position", "fixed");
+              $(".nav-position").css("background", "rgba(0, 0, 0, 0.5)");
           } else {
               $(".nav-position").css("background", "transparent");
           }
@@ -12,7 +12,7 @@ $(document).ready(function () {
 
   if ($(window).width() < 769) {
       $('.nav-bg').css("background", "rgba(0, 0, 0, 0.5)");
-      $('..nav-item a').css("color","white");
+      $('.nav-link').css("color","white");
       $(window).scroll(function () {
           var scrolls = $(window).scrollTop();
           if (scrolls > 300) {
